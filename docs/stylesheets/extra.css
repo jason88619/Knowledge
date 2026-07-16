@@ -1,0 +1,14 @@
+/* Give articles more room on desktop while keeping mobile navigation unchanged. */
+@media screen and (min-width: 76.25em) {
+  .md-grid {
+    max-width: 72rem;
+  }
+
+  .md-sidebar {
+    width: 9rem;
+  }
+
+  .md-sidebar--primary {
+    border-right: 1px solid var(--md-default-fg-color--lightest);
+  }
+}
