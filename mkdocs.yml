@@ -56,8 +56,21 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
-  - 基础知识: 01-fundamentals/index.md
-  - 技术栈: 02-tech-stack/index.md
-  - 项目实战: 03-projects/index.md
-  - 芯片平台: 04-chip-platforms/index.md
+
+  - 基础知识:
+        - C语言: 01-fundamentals/C/index.md
+        - C++语言: 01-fundamentals/Cpp/index.md
+        - ARM: 01-fundamentals/ARM/index.md
+        - RTOS: 01-fundamentals/RTOS/index.md
+  - 技术栈: 
+        - UDS: 02-tech-stack/UDS/index.md
+        - Bootloader: 02-tech-stack/Bootloader/index.md
+        - OTA: 02-tech-stack/OTA/index.md
+        - CAN: 02-tech-stack/CAN/index.md
+        - AUTOSAR: 02-tech-stack/AUTOSAR/index.md
+  - 芯片平台:
+        - Infineon: 03-chip-platforms/Infineon/index.md
+        - NXP-S32K: 03-chip-platforms/NXP-S32K/index.md
+        - STM32: 03-chip-platforms/STM32/index.md
+  - 项目实战: 04-projects/index.md
   - 问题记录: 05-issue-log/index.md
